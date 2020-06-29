@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<contest maker="ccr-plus" version="1.1.0">
-    <order>
-        <problem>money</problem>
-        <problem>frog</problem>
-        <problem>tips</problem>
-        <problem>river</problem>
-    </order>
-</contest>
