@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem maker="ccr-plus" type="TRA_0_4" version="1.1.0">
+    <source dir="tips" code="100" file="tips">
+        <language time="10" cmd="g++ -o tips tips.cpp -Ofast" file="tips.cpp"/>
+    </source>
+    <task input="tips.in" time="10" checker="fulltext" output="tips.out">
+        <subtask score="10">
+            <point time="1" mem="128" out="tips1.out" in="tips1.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="tips2.out" in="tips2.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="tips3.out" in="tips3.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="tips4.out" in="tips4.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="tips5.out" in="tips5.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="tips6.out" in="tips6.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="tips7.out" in="tips7.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="tips8.out" in="tips8.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="tips9.out" in="tips9.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="tips10.out" in="tips10.in"/>
+        </subtask>
+    </task>
+</problem>

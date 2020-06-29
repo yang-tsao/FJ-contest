@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem maker="ccr-plus" type="TRA_0_4" version="1.1.0">
+    <source dir="money" code="100" file="money">
+        <language time="10" cmd="g++ -o money money.cpp -Ofast" file="money.cpp"/>
+    </source>
+    <task input="money.in" time="10" checker="fulltext" output="money.out">
+        <subtask score="10">
+            <point time="2" mem="512" out="money1.out" in="money1.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="2" mem="512" out="money2.out" in="money2.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="2" mem="512" out="money3.out" in="money3.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="2" mem="512" out="money4.out" in="money4.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="2" mem="512" out="money5.out" in="money5.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="2" mem="512" out="money6.out" in="money6.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="2" mem="512" out="money7.out" in="money7.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="2" mem="512" out="money8.out" in="money8.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="2" mem="512" out="money9.out" in="money9.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="2" mem="512" out="money10.out" in="money10.in"/>
+        </subtask>
+    </task>
+</problem>

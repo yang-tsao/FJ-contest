@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem maker="ccr-plus" type="TRA_0_4" version="1.1.0">
+    <source dir="frog" code="100" file="frog">
+        <language time="10" cmd="gcc -o frog frog.c -lm -static" file="frog.c"/>
+        <language time="10" cmd="g++ -o frog frog.cpp -lm -static" file="frog.cpp"/>
+        <language time="10" cmd="fpc frog.pas" file="frog.pas"/>
+    </source>
+    <task input="frog.in" time="10" checker="fulltext" output="frog.out">
+        <subtask score="25">
+            <point time="1" mem="5" out="frog0.out" in="frog0.in"/>
+        </subtask>
+        <subtask score="25">
+            <point time="1" mem="5" out="frog1.out" in="frog1.in"/>
+        </subtask>
+        <subtask score="25">
+            <point time="1" mem="5" out="frog2.out" in="frog2.in"/>
+        </subtask>
+        <subtask score="25">
+            <point time="1" mem="5" out="frog3.out" in="frog3.in"/>
+        </subtask>
+    </task>
+</problem>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<problem maker="ccr-plus" type="TRA_0_4" version="1.1.0">
+    <source dir="river" code="100" file="river">
+        <language time="10" cmd="g++ -o river river.cpp -Ofast" file="river.cpp"/>
+    </source>
+    <task input="river.in" time="10" checker="fulltext" output="river.out">
+        <subtask score="10">
+            <point time="1" mem="128" out="river1.out" in="river1.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="river2.out" in="river2.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="river3.out" in="river3.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="river4.out" in="river4.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="river5.out" in="river5.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="river6.out" in="river6.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="river7.out" in="river7.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="river8.out" in="river8.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="river9.out" in="river9.in"/>
+        </subtask>
+        <subtask score="10">
+            <point time="1" mem="128" out="river10.out" in="river10.in"/>
+        </subtask>
+    </task>
+</problem>

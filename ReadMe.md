@@ -1,0 +1,9 @@
+## FJ-contest
+My contest
+## data下是数据。
+## pro不用管了，出题时用的，内容已经链接到其它目录。
+## result是评测机自己的一些信息，也不用管。
+## src下是源代码。force是暴力，std是正解，other是正解或暴力的其他写法或骗分。
+## problem.md是题目
+## solution.md是题解
+## 由于fedora下lemon有一些奇奇怪怪的错误，所以我用了CCR-plus评测器，格式不太一样，不过应该不是大问题。
